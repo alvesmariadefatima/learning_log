@@ -2,7 +2,7 @@
 
 {% block content %}
 
-    {% if form.errors %}
+    {% if error %}
         <p>Seu login e senha estão incorretos. Por favor, tente novamente.</p>
     {% endif %}
 
@@ -11,7 +11,6 @@
         {{ form.as_p }}
 
         <button name="submit">Entrar</button>
-        <input type="hidden" name="next" value="{% url 'index' %}" />
     </form>
 
 {% endblock content %}
