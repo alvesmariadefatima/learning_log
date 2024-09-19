@@ -6,7 +6,7 @@
         <p>Seu login e senha estão incorretos. Por favor, tente novamente.</p>
     {% endif %}
 
-    <form action="{% url 'login' %}" method="post">
+    <form action="{% url 'login' %}?next={% url 'index' %}" method="post">
         {% csrf_token %}
         {{ form.as_p }}
 
