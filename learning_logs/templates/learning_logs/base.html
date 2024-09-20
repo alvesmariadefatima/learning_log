@@ -9,6 +9,16 @@
 
     {% bootstrap_css %}
     {% bootstrap_javascript %}
+
+    <style>
+        .ul-none ul {
+            display: none;
+        }
+
+        .help-block {
+            display: none;
+        }
+    </style>
 </head>
     <body>
         <nav class="navbar navbar-default navbar-static-topic">
@@ -35,8 +45,15 @@
                 </div>
             </div>
         </nav>
+        <div class="container">
+            <div class="page-header">
+                {% block header %} {% endblock header %}
+            </div>
+
+            <div>
+                {% block content %}{% endblock content %}
+            </div>
+        </div>
     </body>
 </html>
-    
-{% block content %}{% endblock content %}
 

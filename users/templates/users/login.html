@@ -1,4 +1,9 @@
 {% extends 'learning_logs/base.html' %}
+{% load bootstrap3 %}
+
+{% block header %}
+    <h2>Entre com sua conta de login.</h2>
+{% endblock header %}
 
 {% block content %}
 
@@ -6,11 +11,13 @@
         <p>Seu login e senha estão incorretos. Por favor, tente novamente.</p>
     {% endif %}
 
-    <form action="{% url 'login' %}?next={% url 'index' %}" method="post">
+    <form action="{% url 'login' %}?next={% url 'index' %}" method="post" class="form">
         {% csrf_token %}
-        {{ form.as_p }}
+        {% bootstrap_form form %}
 
-        <button name="submit">Entrar</button>
+        {% buttons %}
+            <button name="submit" class="btn btn-primary">Entrar</button>
+        {% endbuttons %}
     </form>
 
 {% endblock content %}
