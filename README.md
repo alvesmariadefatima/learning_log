@@ -86,3 +86,35 @@ Siga os passos abaixo para instalar e configurar o projeto localmente:
 - **Bootstrap**: Framework CSS para estilização e responsividade.
 - **SQLite**: Banco de dados padrão do Django (pode ser alterado conforme necessidade).
 - **HTML5/CSS3**: Estruturação e estilização das páginas.
+
+## Tela inicial do site
+
+![Tela Inicial do Site](assets/tela-inicial-site.png)
+
+## Tela de login
+
+![Tela de Login](assets/tela-login.png)
+
+## Tela de cadastro
+
+![Tela de Cadastro](assets/tela-cadastro.png)
+
+## Tela inicial com usuário autenticado
+![Tela Inicial com Usuário Autenticado](assets/tela-inicial-usuario-autenticado.png)
+
+## Tela para exibir a lista de tópicos criados pelo usuário
+![Tela para exibir a lista de tópicos criados pelo usuário](assets/tela-lista-topicos.png)
+
+## Tela para adicionar anotações 
+![Tela para adicionar anotações](assets/tela-adicionar-anotacao.png)
+
+## Tela para editar anotações 
+![Tela para editar anotações](assets/tela-editar-anotacao.png)
+
+## Tela para adicionar anotações
+![Tela para adicionar anotações](assets/tela-adicionar-anotacao.png)
+
+
+
+
+
