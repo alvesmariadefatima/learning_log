@@ -58,6 +58,7 @@ Siga os passos abaixo para instalar e configurar o projeto localmente:
 7. Acesse a aplicação em [http://localhost:8000](http://localhost:8000).
 ---
 ### Configuração do Banco de Dados
+
 Por padrão, o projeto utiliza SQLite. Para trocar de banco de dados (MySQL, PostgreSQL, etc.), ajuste o arquivo `settings.py` conforme sua preferência.
 ---
 ## Como Usar
