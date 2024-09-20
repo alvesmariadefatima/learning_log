@@ -2,7 +2,6 @@
   "version": 2,
   "functions": {
     "learning_log/wsgi.py": {
-      "maxLambdaSize": "15mb",
       "runtime": "python3.12"
     }
   },
