@@ -111,10 +111,6 @@ Siga os passos abaixo para instalar e configurar o projeto localmente:
 ## Tela para editar anotações 
 ![Tela para editar anotações](assets/tela-editar-anotacao.png)
 
-## Tela para adicionar anotações
-![Tela para adicionar anotações](assets/tela-adicionar-anotacao.png)
-
-
 
 
 
